@@ -32,14 +32,25 @@
 # parede_altura = float(input('Digite a alutura da parede que quer pintar: '))
 # parede_largura = float(input('Digite a largura da parede que quer pintar: '))
 # area = parede_altura * parede_largura
-# print(f'A aréa dessa parede é igual a {area}m² e se cada litro de tinta cobre\numa aréa de 2m², então você precisará de { area / 2 }L de tinta')
+# print(f'A aréa dessa parede é igual a {area}m² e se cada litro de tinta cobre\nUma aréa de 2m², então você precisará de { area / 2 }L de tinta')
 
 # desafio 8
-preco = int(input('Qual o preço do produto que deseja comprar?: '))
-porcentagem = preco * 5 / 100
-print(f'Estamos com uma promoção de 5% no produto de {preco}R$ que deseja comprar.\nEntão no caso sua compra ficará no preço {preco - porcentagem:.2f}R$')
+# preco = int(input('Qual o preço do produto que deseja comprar?: '))
+# porcentagem = preco - (preco * 5 / 100)
+# print(f'Estamos com uma promoção de 5% no produto de {preco}R$ que deseja comprar.\nEntão no caso sua compra ficará no preço {porcentagem:.2f}R$')
 
 # desafio 9 
 # salario = int(input('Qual o seu sálario?: '))
-# salario2 = salario * 15 / 100
+# salario2 = salario - (salario * 15 / 100)
 # print(f'Você receberá um aumento de 15% no seu sálario de {salario}R$. \nApartir de agora seu novo sálario será de {salario + salario2}R$')
+
+# desafio 10
+# celsius = float(input('Informe a temperatura agora em °C: '))
+# farenheit = (celsius * 9/5) + 32
+# print(f'A temperatura {celsius}°C, convertida em Farenheit é {farenheit}°F')
+
+#desafio 11
+dias = int(input('Quantos dias o carro ficou alugado?: '))
+km = float(input('Quantos KM foram rodados?: '))
+pagar = (dias * 60) + (0.15 * km)
+print(f'Sabendo que cada dia com o carro alugado custa R$60,\nE cada KM rodado com ele custa R$0.15 você precisa pagar R${pagar:.2f}')
