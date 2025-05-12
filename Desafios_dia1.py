@@ -5,12 +5,11 @@
 # print(f'A parte inteira de {num} é {Inteiro} ')
 
 #desafio 13
-from math import sqrt
-cateto_oposto = float(input('Comprimento do cateto oposto: '))
-cateto_adjacente = float(input('Comprimento do cateto adjacente: '))
-hipotenusa = (cateto_oposto ** 2) + (cateto_adjacente ** 2)
-hipotenusa = sqrt(hipotenusa)
-print(f'A hipotenusa vai medir {hipotenusa:.2f}')
+import math
+co = float(input('Comprimento do cateto oposto: '))
+ca = float(input('Comprimento do cateto adjacente: '))
+hi = math.hypot(ca , co)
+print(f'A hipotenusa vai medir {hi:.2f}')#Dá pra fazer desse jeito aí, ou pesquisar o calculo e aplicar no codigo
 
 #desafio 14
 #não sei fazer
