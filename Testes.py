@@ -2,7 +2,7 @@ import random
 import turtle
 import time
 
-def gerar_estrelas(qtd=5000, largura=800, altura=700):
+def gerar_estrelas(qtd=2300, largura=800, altura=700):
     estrelas = set()
     while len(estrelas) < qtd:
         x = random.randint(-largura//2, largura//2)
