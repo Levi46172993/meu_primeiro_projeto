@@ -1,5 +1,5 @@
 """
-Primeiro dia (aprendendo algo novo) no curso em vídeo do Guanabara
+Primeiro dia (aprendendo algo novo) no curso em vídeo do Guanabara!!!
 Oque aprendemos?:
 *Import(Ele importa funções secretas do python como o math(é só oq eu sei até agora).Ele importa funções
     Úteis da matematica como a raiz quadrada(sqrt), arredondar um número para cima(ceil) ou até arredondar

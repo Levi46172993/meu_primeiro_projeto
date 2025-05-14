@@ -37,7 +37,7 @@ numero = 0
 
 if not numero:
     print("O número é zero.")
-# Em Python, o número 0 é considerado False. Então not 0 vira True.
+# Em Python, o número 0 é considerado False. Então "not 0" vira True.
 
 itens = []
 

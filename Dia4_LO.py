@@ -62,7 +62,8 @@ else:
     print('Você não digitou nem entrar e nem sair.') 
 
 #pass
-pass 
+print ()
+pass
 
 #Operadores de comparação (relacionais)
 maior = 2 > 1

@@ -20,6 +20,7 @@
 # print(f'O SENO de {angulo} é {seno:.2f}')
 # print(f'O COSSENO de {angulo} é {cosseno:.2f}')
 # print(f'O TANGENTE de {angulo} é {tangente:.2f}')
+
 # #desafio 15
 # print('O professor quer que um dos alunos apague o quadro.')
 # from random import choice
@@ -30,6 +31,7 @@
 # lista = [n1 , n2 , n3 , n4]
 # resultado = choice(lista)
 # print(f'O aluno que irá ajudar o professor será o {resultado}')
+
 #desafio 16
 # from random import shuffle
 # n1 = input('Primeiro Aluno: ')
