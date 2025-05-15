@@ -8,16 +8,28 @@
 # print(f'A quantidade de letras que tem no seu primeiro nome é:{len(nome[0])}')
 
 #desafio 19
-num = input('Digite um número com 4 dígitos: ')
-print(f'Unidade:{num[3]}')
-print(f'Dezena:{num[2]}')
-print(f'Centena:{num[1]}')
-print(f'Milhar:{num[0]}')
+# num = input('Digite um número com 4 dígitos: ')
+# print(f'Unidade:{num[3]}')
+# print(f'Dezena:{num[2]}')#Jeito com str porém da erro se for com menos de um dígito
+# print(f'Centena:{num[1]}')
+# print(f'Milhar:{num[0]}')
+
+# desafio 19,5
+# num = int(input('Digite um número com 4 dígitos: '))
+# u = num // 1 %10
+# d = num // 10 % 10
+# c = num // 100 % 10
+# m = num // 1000 % 10
+# print(f'Unidade:{u}')
+# print(f'Dezena:{d}')#Jeito matématico de fazer que não dá erro
+# print(f'Centena:{c}')
+# print(f'Milhar:{m}')
 
 
 #desafio 20
-# cidade = input('Digite o nome de uma cidade: ')
+# cidade = input('Digite o nome da cidade que você nasceu: ')
 # cidade = cidade.title()
+# cidade = cidade.strip()
 # cidade1 = cidade.split()
 # if 'Santo' in cidade1[0]:
 #     print(f'A cidade {cidade} contém a palavra Santo no primeiro nome!')
@@ -33,15 +45,17 @@ print(f'Milhar:{num[0]}')
 #     print(f'Parece que seu nome não contém Silva ')
 
 #desafio 22
-# frase = input('Digite uma frase motivacional: ')
-# quantas_a = frase.lower()
-# letras_a = frase.count('a')
-# encontre_a = frase.find('a')
-# print(f'A Letra "a" aparece {letras_a} vezes ')
+# frase = input('Digite uma frase motivacional: ').strip()
+# letras_a = frase.count()
+# quantas_a = letras_a.count('a')
+# encontre_a = letras_a.find('a')
+# encontre_a_pela_direita = letras_a.rfind('a')
+# print(f'A Letra "a" aparece {quantas_a} vezes ')
 # print(f'A primeira letra "a" aparece na {encontre_a + 1}° posição')
-# pass
+# print(f'O último "a" aparece na {encontre_a_pela_direita}° posição')
+
 # #desafio 23
 # nome = input('Digite seu nome completo: ')
 # nome = nome.split()
 # print(f'O seu primeiro nome é:{nome[0]}')
-# print(f'O seu último nome é:{nome[-1]}')
+# print(f'O seu último nome é:{nome[len(nome)-1]}')
