@@ -41,18 +41,18 @@
 #desafio 28
 # ano = int(input('Em que ano você está?: '))
 # bissexto = ano % 4
-# if bissexto == 0:
+# if bissexto == 0:#Código está errado
 #     print('Você sabia que o ano em que você está é bissexto!')
 # else:
 #     print('Sabia que seu ano NÃO é bissexto!')
 
 #desafio 29
+#Preguiça de fazer
 pass
-
 #desafio 30
 # salario = float(input('Me diga seu salário:R$ '))
 # aumento_10 = (salario * 10 / 100) + salario
-# aumento_15 = (salario * 15 / 100) + salario
+# aumento_15 = (salario * 15 / 100) + salario 
 # if salario < 1250:
 #     print(f'Parece que seu salário de {salario}R$ está um pouco abaixo do esperado.\nVocê receberá um aumento de 15%. Seu novo é salário {aumento_15:.2f}R$')     
 # else:
