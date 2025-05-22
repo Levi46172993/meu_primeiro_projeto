@@ -9,7 +9,7 @@ Fonte de texto         |          Cor do texto              |      Cor do fundo 
 .                      |             35->Roxo               |                 45                                                       
 .                      |             36->Ciano              |                 46                 
 .                      |             37->Cinza              |                 47
-*Layout de Colocar cor no texto(print('\033[x;x;xmMarcos viado')
+*Layout de Colocar cor no texto(print('\033[(Fonte de texto);(Cor do texto);(Fundo do texto)mMarcos viado')
 '''
 print('\033[1;31;45mOlá,Mundo!')#Coloque no final da string \033[m para fazer com que a cor pare
 print('                                                                                                            ')
