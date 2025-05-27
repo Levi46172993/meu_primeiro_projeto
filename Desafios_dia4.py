@@ -38,7 +38,7 @@ pass
 # if media < 5 :
 #     print(f'\033[0;36mSua nota final foi {media}\033[m')
 #     print('\033[1;31mREPROVADO\033[m')
-#     print(f'\033[1;31m{media} SÉRIO?? VOCÊ FAZ MELHOR. ESTUDE MAIS\033[m')
+#     print(f'\033[1;31m{media} SÉRIO?? VOCÊ FAZ MELHOR. ESTUDE MUITO MAIS\033[m')
 # elif media < 6.9:
 #     print(f'\033[0;36mSua nota final foi {media}\033[m')
 #     print('\033[1;33mRECUPERAÇÃO\033[m')
@@ -48,13 +48,18 @@ pass
 #     print('\033[1;32mAPROVADO\033[m')
 #     print('\033[1;32mPARABÉNS\033[m')
 #desafio 37
-from datetime import datetime
-ano = int(input('\033[4;35mDigite o ano do seu nascimento para a confederação nacional de natação:\033[m '))
-idade = datetime.now().year - ano
-if idade <= 9:
-    print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MIRIM\033[m')
-elif idade <= 14:
-    print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR INFANTIL\033[m')
-elif idade <= 19:
-    print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR JÚNIOR\033[m')
-    
+# from datetime import datetime
+# ano = int(input('\033[4;35mDigite o ano do seu nascimento para a confederação nacional de natação:\033[m '))
+# idade = datetime.now().year - ano
+# if idade <= 9:
+#     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MIRIM\033[m')
+# elif idade <= 14:
+#     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR INFANTIL\033[m')
+# elif idade <= 19:
+#     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR JÚNIOR\033[m')
+# elif idade == 20:
+#     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR SÊNIOR\033[m')
+# else:
+#     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MASTER\033[m')
+
+#desafio 38
