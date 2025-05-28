@@ -1,10 +1,10 @@
 #desafio 32 QEF (desafio 36 NOG)
 pass
 
-#desafio 33
+#desafio 33 QEF (desafio 37 NOG)
 pass
 
-#desafio 34
+#desafio 34 QEF (desafio 38 NOG)
 # num_1 = int(input('Digite um número: '))
 # num_2 = int(input('Digite outro número: '))
 # if num_1 > num_2:
@@ -13,7 +13,7 @@ pass
 #     print(f'O valor {num_2} é maior que {num_1}!')
 # else: 
 #     print('Eu não consigo identificar qual é maior e qual é menor, pois os dois números são igual')
-# desafio 35
+# desafio 35 QEF (desafio 39 NOG)
 # from datetime import datetime
 # ano = int(input('Me diga o seu ano de nascimento: '))
 # idade = datetime.now().year - ano
@@ -31,7 +31,7 @@ pass
 # else:
 #     print(f'\033[0;36mSe prepare para quando você for servir o exercito brasileiro falta somente {abs(18 - idade)} ano(s)\033[m')
 
-#desafio 36
+#desafio 36 QEF (desafio 40 NOG)
 # nota_1 = float(input('\033[4;35mMe diga sua primeira nota:\033[m '))
 # nota_2 = float(input('\033[4;35mMe diga sua segunda:\033[m '))
 # media = (nota_1 + nota_2) / 2
@@ -47,7 +47,7 @@ pass
 #     print(f'\033[0;36mSua nota final foi {media}\033[m')
 #     print('\033[1;32mAPROVADO\033[m')
 #     print('\033[1;32mPARABÉNS\033[m')
-#desafio 37
+#desafio 37 QEF (desafio 41 NOG)
 # from datetime import datetime
 # ano = int(input('\033[4;35mDigite o ano do seu nascimento para a confederação nacional de natação:\033[m '))
 # idade = datetime.now().year - ano
@@ -62,4 +62,4 @@ pass
 # else:
 #     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MASTER\033[m')
 
-#desafio 38
+#desafio 38 QEF (desafio 42 NOG)
