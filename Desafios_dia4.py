@@ -1,4 +1,4 @@
-#desafio 32
+#desafio 32 QEF (desafio 36 NOG)
 pass
 
 #desafio 33

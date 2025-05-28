@@ -1,4 +1,4 @@
-#desafio 24
+#desafio 24 QEF (desafio 28 NOG)
 # from random import randint
 # from time import sleep
 # pensei  = randint(0,5)
@@ -14,7 +14,7 @@
 #     print(f'Que pena você errou, o número que eu tinha pensado era o {pensei}\n e você escolheu o {escolha} mas você pode tentar denovo')
 # print('FIM')
 
-# desafio 25
+# desafio 25 QEF (desafio 29 NOG)
 # carro = float(input('Você estava dirigindo a quantos Km/h?: '))
 # if carro > 80:
 #     print('Infelizmente você vai ser multado por exceder o limite de 80Km/h.\nCada Km/h ultrupassado lhe custara R$7,00')
@@ -22,7 +22,7 @@
 # else:
 #     print('Tudo certo já que você estava abaixo do limite de 80Km/h')
 
-#desafio 26
+#desafio 26 QEF (desafio 30 NOG)
 # num = int(input('Digite um número: '))
 # par_ou_impar = num % 2
 # if par_ou_impar == 0:
@@ -30,7 +30,7 @@
 # else:
 #     print('Seu número é ÍMPAR!')
 
-#desafio 27
+#desafio 27 QEF (desafio 31 NOG)
 # km = float(input('Qual a distância em Km da sua viagem?: '))
 # if km > 200 :
 #     print(f'O preço da sua passagem relacionada a sua viagem de {km}Km será de {km * 0.45:.2f}R$')
@@ -38,7 +38,7 @@
 #     print(f'O preço da sua passagem relacionada a sua viagem de {km}Km será de {km * 0.50:.2f}R$')
 # print('Boa viagem :)')
 
-#desafio 28
+#desafio 28 QEF (desafio 32 NOG)
 # ano = int(input('Em que ano você está?: '))
 # bissexto = ano % 4
 # if bissexto == 0:#Código está errado
@@ -46,10 +46,10 @@
 # else:
 #     print('Sabia que seu ano NÃO é bissexto!')
 
-#desafio 29
+#desafio 29 QEF (desafio 33 NOG)
 #Preguiça de fazer
 pass
-#desafio 30
+#desafio 30 QEF (desafio 34 NOG)
 # salario = float(input('Me diga seu salário:R$ '))
 # aumento_10 = (salario * 10 / 100) + salario
 # aumento_15 = (salario * 15 / 100) + salario 
@@ -58,7 +58,7 @@ pass
 # else:
 #     print(f'Com o seu salário de {salario}R$ você receberá um aumento 10%.Seu novo salário é {aumento_10:.2f}R$')
 
-#desafio 31
+#desafio 31 QEF (desafio 35 NOG)
 # segmento_a = float(input('Digite um comprimento de reta: '))
 # segmento_b = float(input('Digite outro comprimento de reta: '))
 # segmento_c = float(input('Digite outro comprimento de reta: '))
