@@ -63,3 +63,18 @@ pass
 #     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MASTER\033[m')
 
 #desafio 38 QEF (desafio 42 NOG)
+# reta_1 = float(input('\033[0;35mDigite um tamanho de segmento de reta: '))
+# reta_2 = float(input('\033[0;35mDigite outro tamanho de segmento de reta: '))
+# reta_3 = float(input('\033[0;35mDigite outro tamanho de segmento de reta: '))
+# if reta_1 + reta_2 > reta_3:
+#     if reta_1 + reta_3 > reta_2:
+#         if reta_2 + reta_3 > reta_1:
+#             print('\033[m\033[1;32mSIM é possível formar um triângulo com essas retas que me informou\033[m')
+#         else:
+#             print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_2} + {reta_3} não é maior que {reta_1}\033[m')
+#     else:
+#         print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_3} não é maior que {reta_2}\033[m')
+# else:
+#     print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
+
+#desafio 39 QEF(desafio 43 NOG)
