@@ -63,29 +63,45 @@ pass
 #     print('\033[1;36mVOCÊ É DA CATEGORIA \033[4;36mNADADOR MASTER\033[m')
 
 #desafio 38 QEF (desafio 42 NOG)
-reta_1 = float(input('\033[0;35mDigite um tamanho de segmento de reta: '))
-reta_2 = float(input('\033[0;35mDigite outro tamanho de segmento de reta: '))
-reta_3 = float(input('\033[0;35mDigite outro tamanho de segmento de reta: '))
-if reta_1 + reta_2 > reta_3:
-    if reta_1 + reta_3 > reta_2:
-        if reta_2 + reta_3 > reta_1:
-            print('\033[m\033[1;32mSIM é possível formar um triângulo com essas retas que me informou\033[m')
-            if reta_1 == reta_2 == reta_3:
-                print('\033[1;34mSeu triângulo é \033[4;34mEQUILÁTERO\033[m')
-                if reta_1 != reta_2 and reta_1 != reta_3 and reta_2 != reta_3:
-                    print('\033[1;34mSeu triângulo é \033[4;34mESCALENO\033[m')
-                    if reta_1 == reta_2 and reta_1 != reta_3 or reta_1 != reta_2 and reta_1 == reta_3 or reta_3 != reta_2:
-                        print('\033[1;34mSeu triângulo é \033[4;34mISÓSCELES\033[m')
-                    else:
-                        pass
-                else:
-                    pass
-            else:
-                pass
-        else:
-            print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_2} + {reta_3} não é maior que {reta_1}\033[m')
-    else:
-        print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_3} não é maior que {reta_2}\033[m')
-else:
-    print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
+# reta_1 = float(input('\033[1;36mDigite um tamanho de segmento de reta: '))
+# reta_2 = float(input('\033[1;36mDigite outro tamanho de segmento de reta: '))
+# reta_3 = float(input('\033[1;36mDigite outro tamanho de segmento de reta: '))
+# if reta_1 + reta_2 > reta_3:
+#     if reta_1 + reta_3 > reta_2:
+#         if reta_2 + reta_3 > reta_1:
+#             print('\033[m\033[1;32mSIM é possível formar um triângulo com essas retas que me informou\033[m')
+#             if reta_1 == reta_2 == reta_3:
+#                 print('\033[1;34mSeu triângulo é \033[4;34mEQUILÁTERO\033[m')
+#             elif reta_1 != reta_2 and reta_1 != reta_3 and reta_2 != reta_3:
+#                 print('\033[1;34mSeu triângulo é \033[4;34mESCALENO\033[m')
+#             elif reta_1 == reta_2 and reta_1 != reta_3 or reta_1 != reta_2 and reta_1 == reta_3 or reta_3 == reta_2 and reta_1 != reta_3 or reta_1 != reta_2:
+#                         print('\033[1;34mSeu triângulo é \033[4;34mISÓSCELES\033[m')
+#             else:
+#                 print('\033[1;31m\033[m4;31ERRO ):\033[m')
+#         else:
+#             print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_2} + {reta_3} não é maior que {reta_1}\033[m')
+#     else:
+#         print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_3} não é maior que {reta_2}\033[m')
+# else:
+#     print(f'\033[m\033[1;31mNÃO é possível formar um triângulocom as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
+
 # desafio 39 QEF(desafio 43 NOG)
+# print('\033[1;36mDeixe-me calcular seu IMC\033[m')
+# peso = float(input('\033[1;36mQual seu peso?: '))
+# altura = float(input('Me diga sua altura em metros: '))
+# imc = peso/(altura**2)
+# if imc <= 18.5:
+#     print(f'\033[m\033[0;37m{imc:.2f} Abaixo do peso!\033[m')
+#     print('\033[0;37mEra bom dar uma ajustada nesse peso\033[m')
+# elif imc < 25:
+#     print(f'\033[m\033[1;32m{imc:.2f} Peso ideal/normal!')
+#     print('Continue assim (;\033[m')
+# elif imc < 30 :
+#     print(f'\033[m\033[1;36m{imc:.2f} Sobrepeso!')
+#     print(f'Cuidado com seu peso já está um pouco acima do normal!\033[m')
+# elif imc < 40:
+#     print(f'\033[m\033[1;33m{imc:.2f} Obesidade!')
+#     print(f'Você tem que se policiar contra isso já está \033[4;33mPREOCUPANTE\033[m')
+# else:
+#     print(f'\033[m\033[4;31m\033[1;31m{imc} OBESIDADE MÓRBIDA')
+#     print(f'\033[4;31m\033[1;31mSe você não fizer nada sobre isso AGORA, irá morrer\033[m')
