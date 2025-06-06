@@ -71,14 +71,21 @@ if reta_1 + reta_2 > reta_3:
         if reta_2 + reta_3 > reta_1:
             print('\033[m\033[1;32mSIM é possível formar um triângulo com essas retas que me informou\033[m')
             if reta_1 == reta_2 == reta_3:
-                print('\033[1;34mSeu triângulo é \033[m\033[4;34mEQUILÁTERO\033[m')
+                print('\033[1;34mSeu triângulo é \033[4;34mEQUILÁTERO\033[m')
                 if reta_1 != reta_2 and reta_1 != reta_3 and reta_2 != reta_3:
-                    print('\033[1;34mSeu triângulo é \033[m\033[4;34mESCALENO\033[m')
-                    if reta_1 ==
+                    print('\033[1;34mSeu triângulo é \033[4;34mESCALENO\033[m')
+                    if reta_1 == reta_2 and reta_1 != reta_3 or reta_1 != reta_2 and reta_1 == reta_3 or reta_3 != reta_2:
+                        print('\033[1;34mSeu triângulo é \033[4;34mISÓSCELES\033[m')
+                    else:
+                        pass
+                else:
+                    pass
+            else:
+                pass
         else:
             print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_2} + {reta_3} não é maior que {reta_1}\033[m')
     else:
         print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_3} não é maior que {reta_2}\033[m')
 else:
     print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
-#desafio 39 QEF(desafio 43 NOG)
+# desafio 39 QEF(desafio 43 NOG)
