@@ -101,7 +101,7 @@ pass
 #     print(f'Cuidado com seu peso já está um pouco acima do normal!\033[m')
 # elif imc < 40:
 #     print(f'\033[m\033[1;33m{imc:.2f} Obesidade!')
-#     print(f'Você tem que se policiar contra isso já está \033[4;33mPREOCUPANTE\033[m')
+#     print(f'Você tem que se policiar contra isso, já está \033[4;33mPREOCUPANTE\033[m')
 # else:
-#     print(f'\033[m\033[4;31m\033[1;31m{imc} OBESIDADE MÓRBIDA')
-#     print(f'\033[4;31m\033[1;31mSe você não fizer nada sobre isso AGORA, irá morrer\033[m')
+#     print(f'\033[m\033[4;31m\033[1;31m{imc:.2f} OBESIDADE MÓRBIDA')
+#     print(f'\033[4;31m\033[1;31mSe você não fizer nada sobre isso AGORA, irá morrer...\033[m')
