@@ -105,3 +105,20 @@ pass
 # else:
 #     print(f'\033[m\033[4;31m\033[1;31m{imc:.2f} OBESIDADE MÓRBIDA')
 #     print(f'\033[4;31m\033[1;31mSe você não fizer nada sobre isso AGORA, irá morrer...\033[m')
+
+#desafio 40 QEF (desafio 44 NOG)
+print('\033[1;34m-=-' * 18)
+print('Formas de pagamento:\nPara pagar á vista no dinheiro digite 1')
+print('Para pagar no cartão á vista digite 2')
+print('Para pagar no cartão parcelado em 2X digite 3')
+print('Para pagar no cartão parcelado em 3X digite 4 (Só pode ser parcelado em até 3X)')
+print('-=-' * 18)
+forma_de_pagamento = float(input('\033[1;36mComo você irá pagar seu pênis de borracha ultra realista\nDe R$349,99 senhor Marcos viado?: '))
+desconto10 = (349.99 * 10 / 100) 
+desconto10 = 349.99 - desconto10
+desconto5 = (349.99 * 5 / 100)
+desconto5 = 349.99 - desconto5
+if forma_de_pagamento == 1:
+    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão a compra do seu pênis ultra realista senhor Marcos viado fica no preço de R${desconto10}')
+elif forma_de_pagamento == 2:
+    print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor do seu  pênis ultra realista senhor marcos viado será de R${desconto5}')
