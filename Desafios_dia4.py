@@ -119,6 +119,6 @@ desconto10 = 349.99 - desconto10
 desconto5 = (349.99 * 5 / 100)
 desconto5 = 349.99 - desconto5
 if forma_de_pagamento == 1:
-    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão a compra do seu pênis ultra realista senhor Marcos viado fica no preço de R${desconto10}')
+    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão a compra do seu pênis ultra realista senhor Marcos viado fica no preço de R${desconto10:.2f}')
 elif forma_de_pagamento == 2:
     print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor do seu  pênis ultra realista senhor marcos viado será de R${desconto5}')
