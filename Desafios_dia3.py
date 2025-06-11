@@ -49,6 +49,7 @@
 #desafio 29 QEF (desafio 33 NOG)
 #Preguiça de fazer
 pass
+
 #desafio 30 QEF (desafio 34 NOG)
 # salario = float(input('Me diga seu salário:R$ '))
 # aumento_10 = (salario * 10 / 100) + salario

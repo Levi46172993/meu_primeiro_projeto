@@ -12,7 +12,7 @@ pass
 # elif num_1 < num_2:
 #     print(f'O valor {num_2} é maior que {num_1}!')
 # else: 
-#     print('Eu não consigo identificar qual é maior e qual é menor, pois os dois números são igual')
+#     print('Eu não consigo identificar qual é maior e qual é menor, pois os dois números são iguais')
 # desafio 35 QEF (desafio 39 NOG)
 # from datetime import datetime
 # ano = int(input('Me diga o seu ano de nascimento: '))
@@ -98,27 +98,40 @@ pass
 #     print('Continue assim (;\033[m')
 # elif imc < 30 :
 #     print(f'\033[m\033[1;36m{imc:.2f} Sobrepeso!')
-#     print(f'Cuidado com seu peso já está um pouco acima do normal!\033[m')
+#     print(f'acima do normal!\033[m')
 # elif imc < 40:
 #     print(f'\033[m\033[1;33m{imc:.2f} Obesidade!')
-#     print(f'Você tem que se policiar contra isso, já está \033[4;33mPREOCUPANTE\033[m')
+#     print(f'\033[4;33mPREOCUPANTE\033[m')
 # else:
 #     print(f'\033[m\033[4;31m\033[1;31m{imc:.2f} OBESIDADE MÓRBIDA')
-#     print(f'\033[4;31m\033[1;31mSe você não fizer nada sobre isso AGORA, irá morrer...\033[m')
+#     print(f'\033[4;31m\033[1;31mCUIDADO, RISCO DE MORTE\033[m')
 
 #desafio 40 QEF (desafio 44 NOG)
-print('\033[1;34m-=-' * 18)
-print('Formas de pagamento:\nPara pagar á vista no dinheiro digite 1')
-print('Para pagar no cartão á vista digite 2')
-print('Para pagar no cartão parcelado em 2X digite 3')
-print('Para pagar no cartão parcelado em 3X digite 4 (Só pode ser parcelado em até 3X)')
-print('-=-' * 18)
-forma_de_pagamento = float(input('\033[1;36mComo você irá pagar seu pênis de borracha ultra realista\nDe R$349,99 senhor Marcos viado?: '))
-desconto10 = (349.99 * 10 / 100) 
-desconto10 = 349.99 - desconto10
-desconto5 = (349.99 * 5 / 100)
-desconto5 = 349.99 - desconto5
+print('\033[1;34m=' * 10 , 'Supermercado Atacadão' , '=' * 10)
+valor = float(input('Qual foi o valor da sua compra?:R$'))
+print('[ 1 ] á vista/cheque')
+print('[ 2 ] á vista no cartão')
+print('[ 3 ] 2x no cartão')
+print('[ 4 ] 3x ou mais no cartão')
+forma_de_pagamento = float(input('\033[1;36mQual das opções?: '))
+desconto10 = (valor * 10 / 100) 
+desconto10 = valor - desconto10
+desconto5 = (valor * 5 / 100)
+desconto5 = valor - desconto5
+parcelado2x = valor / 2
 if forma_de_pagamento == 1:
-    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão a compra do seu pênis ultra realista senhor Marcos viado fica no preço de R${desconto10:.2f}')
+    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão sua compra fica no preço de R${desconto10:.2f}\033[m')
 elif forma_de_pagamento == 2:
-    print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor do seu  pênis ultra realista senhor marcos viado será de R${desconto5}')
+    print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor da sua compra será de R${desconto5:.2f}\033[m')
+elif forma_de_pagamento == 3:
+    print(f'\033[m\033[1;32mPagando parcelado em 2X fica totalmente sem juros, ficando a primeira parcela em R${parcelado2x:.2f}\033[m')
+elif forma_de_pagamento == 4:
+    parcelas = int(input('\033[m\033[1;36mQuantas parcelas?: '))
+    print(f'\033[m\033[1;32mSua primeira parcela vai ser no preço de R${(valor * 20 / 100) + (valor / parcelas):.2f} e no final você terá pagado R${(valor *  20 / 100) + valor}')
+else:
+    print('\033[m\033[1;31mEsta não é uma forma de pagamento válida por favor tente novamente\033[m')
+
+#desafio 41 QEF(desafio 45 NOG)
+#Fazer um jogo de jokenpô
+#preguiça de fazer
+pass
