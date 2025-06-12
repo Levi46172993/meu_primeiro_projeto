@@ -83,7 +83,7 @@ pass
 #     else:
 #         print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_3} não é maior que {reta_2}\033[m')
 # else:
-#     print(f'\033[m\033[1;31mNÃO é possível formar um triângulocom as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
+#     print(f'\033[m\033[1;31mNÃO é possível formar um triângulo com as seguintes retas pois {reta_1} + {reta_2} não é maior que {reta_3}')
 
 # desafio 39 QEF(desafio 43 NOG)
 # print('\033[1;36mDeixe-me calcular seu IMC\033[m')
@@ -107,31 +107,54 @@ pass
 #     print(f'\033[4;31m\033[1;31mCUIDADO, RISCO DE MORTE\033[m')
 
 #desafio 40 QEF (desafio 44 NOG)
-print('\033[1;34m=' * 10 , 'Supermercado Atacadão' , '=' * 10)
-valor = float(input('Qual foi o valor da sua compra?:R$'))
-print('[ 1 ] á vista/cheque')
-print('[ 2 ] á vista no cartão')
-print('[ 3 ] 2x no cartão')
-print('[ 4 ] 3x ou mais no cartão')
-forma_de_pagamento = float(input('\033[1;36mQual das opções?: '))
-desconto10 = (valor * 10 / 100) 
-desconto10 = valor - desconto10
-desconto5 = (valor * 5 / 100)
-desconto5 = valor - desconto5
-parcelado2x = valor / 2
-if forma_de_pagamento == 1:
-    print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão sua compra fica no preço de R${desconto10:.2f}\033[m')
-elif forma_de_pagamento == 2:
-    print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor da sua compra será de R${desconto5:.2f}\033[m')
-elif forma_de_pagamento == 3:
-    print(f'\033[m\033[1;32mPagando parcelado em 2X fica totalmente sem juros, ficando a primeira parcela em R${parcelado2x:.2f}\033[m')
-elif forma_de_pagamento == 4:
-    parcelas = int(input('\033[m\033[1;36mQuantas parcelas?: '))
-    print(f'\033[m\033[1;32mSua primeira parcela vai ser no preço de R${(valor * 20 / 100) + (valor / parcelas):.2f} e no final você terá pagado R${(valor *  20 / 100) + valor}')
-else:
-    print('\033[m\033[1;31mEsta não é uma forma de pagamento válida por favor tente novamente\033[m')
+# print('\033[1;34m=' * 10 , 'Supermercado Atacadão' , '=' * 10)
+# valor = float(input('Qual foi o valor da sua compra?:R$'))
+# print('''Formas de pagamento
+# [ 1 ] á vista dinheiro/cheque
+# [ 2 ] á vista no cartão
+# [ 3 ] 2x no cartão SEM JUROS
+# [ 4 ] 3x ou mais no cartão COM JUROS''')
+# forma_de_pagamento = int(input('\033[1;36mQual das opções?: '))
+# desconto10 = (valor * 10 / 100) 
+# desconto10 = valor - desconto10
+# desconto5 = (valor * 5 / 100)
+# desconto5 = valor - desconto5
+# if forma_de_pagamento == 1:
+#     print(f'\033[m\033[1;32mComo você escolheu pagar á vista em dinheiro, ganhará um desconto de 10%\nEntão sua compra fica no preço de R${desconto10:.2f}\033[m')
+# elif forma_de_pagamento == 2:
+#     print(f'\033[m\033[1;32mComo você escolheu pagar á vista no cartão, ganhará um desconto de 5% em sua compra\nO valor da sua compra será de R${desconto5:.2f}\033[m')
+# elif forma_de_pagamento == 3:
+#     print(f'\033[m\033[1;32mPagando parcelado em 2X fica totalmente sem juros, ficando a primeira parcela em R${valor / 2:.2f}\033[m')
+# elif forma_de_pagamento == 4:
+#     parcelas = int(input('\033[m\033[1;36mQuantas parcelas?: '))
+#     print(f'\033[m\033[1;32mSua primeira parcela vai ser no preço de R${((valor / parcelas)* 20 / 100) + valor / parcelas:.2f} COM JUROS e no final você terá pagado R${(valor *  20 / 100) + valor}')
+# else:
+#     print('\033[m\033[1;31mEsta não é uma forma de pagamento válida por favor tente novamente\033[m')
 
 #desafio 41 QEF(desafio 45 NOG)
-#Fazer um jogo de jokenpô
-#preguiça de fazer
-pass
+from time import sleep
+from random import choice
+print('''Suas opções
+[ 0 ] PEDRA
+[ 1 ] PAPEL
+[ 2 ] TESOURA''')
+jogada_usuario = str(input('Qual sua jogada?: '))
+jogada_computador = choice(['Pedra' , 'Papel' , 'Tesoura'])
+print('JO') 
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!!!')
+print('-=-' * 20)
+if jogada_computador == jogada_usuario:
+    resultado = 'EMPATE'
+elif jogada_computador == 'Pedra' and jogada_usuario == 1:
+    resultado = 'JOGADOR VENCE'
+elif jogada_usuario == 0 and jogada_computador == 'Papel':
+    resultado = 'COMPUTADOR VENCE'
+
+print(f'''Computador jogou {jogada_computador}
+Jogador jogou {jogada_usuario}''')
+
+
+
