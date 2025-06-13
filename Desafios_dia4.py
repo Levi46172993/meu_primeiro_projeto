@@ -132,29 +132,45 @@ pass
 #     print('\033[m\033[1;31mEsta não é uma forma de pagamento válida por favor tente novamente\033[m')
 
 #desafio 41 QEF(desafio 45 NOG)
-from time import sleep
-from random import choice
-print('''Suas opções
-[ 0 ] PEDRA
-[ 1 ] PAPEL
-[ 2 ] TESOURA''')
-jogada_usuario = str(input('Qual sua jogada?: '))
-jogada_computador = choice(['Pedra' , 'Papel' , 'Tesoura'])
-print('JO') 
-sleep(1)
-print('KEN')
-sleep(1)
-print('PO!!!')
-print('-=-' * 20)
-if jogada_computador == jogada_usuario:
-    resultado = 'EMPATE'
-elif jogada_computador == 'Pedra' and jogada_usuario == 1:
-    resultado = 'JOGADOR VENCE'
-elif jogada_usuario == 0 and jogada_computador == 'Papel':
-    resultado = 'COMPUTADOR VENCE'
-
-print(f'''Computador jogou {jogada_computador}
-Jogador jogou {jogada_usuario}''')
-
-
-
+# from time import sleep
+# from random import randint
+# print('''\033[1;34mSuas opções
+# [ 0 ] PEDRA
+# [ 1 ] PAPEL
+# [ 2 ] TESOURA''')
+# jogada_usuario = int(input('Qual sua jogada?: '))
+# jogada_computador = randint(0,2)
+# if jogada_usuario >= 3:
+#     print('\033[m\033[1;31mEstá não é uma resposta válida, por favor tente novamente\033[m')
+# jogadas = ['PEDRA' , 'PAPEL' , 'TESOURA']
+# if jogada_usuario < 3:           
+#     print('JO') 
+#     sleep(0.5)
+#     print('KEN')
+#     sleep(0.5)
+#     print('PO!!!')
+#     print('\033[1;36m-=-' * 10)
+#     print(f'''Computador jogou {jogadas[jogada_computador]}
+# Jogador jogou {jogadas[jogada_usuario]}''')
+#     print('-=-' * 10)
+# if jogada_computador == 0:
+#     if jogada_usuario == 0:
+#         print('\033[m\033[1;33mEMPATE\033[m')
+#     elif jogada_usuario == 1:
+#         print('\033[m\033[1;32mJOGADOR VENCE\033[m')
+#     elif jogada_usuario == 2:
+#         print('\033[m\033[1;31mCOMPUTADOR VENCE\033[m')
+# elif jogada_computador == 1:
+#     if jogada_usuario == 0:
+#         print('\033[m\033[1;31mCOMPUTADOR VENCE\033[m')
+#     elif jogada_usuario == 1:
+#         print('\033[m\033[1;33mEMPATE\033[m')
+#     elif jogada_usuario == 2:
+#         print('\033[m\033[1;32mJOGADOR VENCE\033[m')
+# elif jogada_computador == 2:
+#     if jogada_usuario == 0:
+#         print('\033[m\033[1;32mJOGADOR VENCE\033[m')
+#     elif jogada_usuario == 1:
+#         print('\033[m\033[1;31mCOMPUTADOR VENCE\033[m')
+#     elif jogada_usuario == 2:
+#         print('\033[m\033[1;33mEMPATE\033[m')
