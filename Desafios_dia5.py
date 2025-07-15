@@ -16,10 +16,11 @@
 #soma de numeros ímpares
 # cont = 0
 # soma = 0
-# for c in range(1 , 500 , 2):
+# for c in range(1 , 501 , 2):
 #     if c % 3 == 0:
 #         soma += c 
 #         cont += 1
+# print(f'A soma dos {cont} valores solicitados é {soma}!')
 # print(f'A soma de todos os {cont} valores solicitados é {soma}')
 
 #desafio 45 QEF (desafio 49 NOG)
@@ -40,3 +41,4 @@
 # print(f'A soma dos {cont} números PARES que me informou é {soma}')
 
 #desafio 47 QEF (desafio 51 NOG)
+#Progressão Áritmetica(PA)
