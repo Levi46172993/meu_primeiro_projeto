@@ -42,10 +42,21 @@
 
 #desafio 47 QEF (desafio 51 NOG)
 #Progressão Áritmetica(PA)
-print('==' * 17)
-print('      10 TERMOS DE UMA PA      ')
-print('==' * 17)
-prt = int(input('Primeiro termo: '))
-raz = int(input('Razão: '))
-for c in range(1 , 11):
-    
+# print('==' * 17)
+# print('      10 TERMOS DE UMA PA      ')
+# print('==' * 17)
+# prt = int(input('Primeiro termo: '))
+# raz = int(input('Razão: '))
+# dec = prt + (11 - 1) * raz
+# for c in range(prt , dec , raz):
+#     print (c , end=' -> ')
+# print('ACABOU')
+
+#desafio 48 QEF (desafio 52 NOG)
+#Números primos
+num = int(input('Digite um número: '))
+sla = 1 + (num - 1) * 1
+for c in range(1 , sla + 1):
+    if num % c == 0:
+        print(c , end=' ')
+            
