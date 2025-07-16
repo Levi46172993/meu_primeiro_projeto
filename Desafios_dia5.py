@@ -42,3 +42,10 @@
 
 #desafio 47 QEF (desafio 51 NOG)
 #Progressão Áritmetica(PA)
+print('==' * 17)
+print('      10 TERMOS DE UMA PA      ')
+print('==' * 17)
+prt = int(input('Primeiro termo: '))
+raz = int(input('Razão: '))
+for c in range(1 , 11):
+    
